@@ -1,0 +1,23 @@
+.tasks-container{
+    /* border:1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tasks-container p{
+    font-weight: bolder;
+    border: 2px solid black;
+    width: 100%;
+    display: flex;
+    
+    /* padding: 1rem 2rem; */
+    justify-content: center;
+    align-items: center;
+    padding:1rem;
+    max-width: 40rem;
+    border-radius: 20px;
+    font-size: 1.4rem;
+    margin-top: 1rem;
+}
